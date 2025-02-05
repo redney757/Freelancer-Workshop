@@ -10,7 +10,7 @@ Write code according to the provided prompts. You are highly encouraged to revie
 
 1. Write a function that returns a freelancer object with a randomly generated name, occupation, and rate according to the provided constants.
 2. Initialize a state variable to an array of `NUM_FREELANCERS` freelancer objects.
-3. Write a function that returns the average rate of all freelancers in a given array of freelancers.
+3. Write a function that returns the average rate of all freelancers in state.
 4. Use that function to initialize a state variable which will store the average rate of all freelancers.
 5. Write a component function to represent a single freelancer.
 6. Write a component function to represent an array of freelancers.

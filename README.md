@@ -21,6 +21,20 @@ Write code according to the provided prompts. You are highly encouraged to revie
 >
 > You have a lot of creative freedom as to what the components actually are, as long as they are properly mounted and render all of the necessary information!
 
+> [!WARNING]
+>
+> If you're thinking about using a `<table>`, be aware that
+> you aren't allowed to use "fake" elements in a table!
+> So when you render your app, replace a real element with an ID instead of
+> replacing a `<Component></Component>`.
+>
+> ```js
+> $app.innerHTML = `
+>    <tbody id="FreelancerRows"></tbody>
+> `;
+> $app.querySelector("#FreelancerRows").replaceWith(FreelancerRows());
+> ```
+
 ## Submission
 
 Please submit the link to your public GitHub repository.

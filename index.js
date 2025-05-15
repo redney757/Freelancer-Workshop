@@ -39,6 +39,7 @@ let averageRate = getAverageRate();
 console.log(averageRate);
 //write a component function to represent a single freelancer
 function FreelancerCard({ name, occupation, rate }) {
+  
   return `
     <div class="freelancer-card">
       <h2>${name}</h2>
@@ -72,6 +73,8 @@ function render() {
     ${AverageRateCard(averageRate)}
     ${FreelancerList(freelancers)}
   `;
+  
 }
+
 // Call the render function to mount the application
 render();
